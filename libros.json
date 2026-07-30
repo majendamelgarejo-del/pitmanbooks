@@ -260,18 +260,3 @@
     "agotado": false
   }
 ]
-
-  "id": 1,
-  "titulo": "Historia Universal",
-  "autor": "Autor",
-  "categoria": "Historia",
-  "precio": 45,
-  "stock": 1,
-  "estado": "Nuevo",
-  "descripcion": "Descripción del libro.",
-  "imagen": "img/libros/001.jpg",
-  "destacado": true,
-  "agotado": false,
-  "isbn": "",
-  "editorial": "",
-  "anio": ""
