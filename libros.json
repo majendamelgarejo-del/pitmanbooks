@@ -260,7 +260,7 @@
     "agotado": false
   }
 ]
-{
+
   "id": 1,
   "titulo": "Historia Universal",
   "autor": "Autor",
@@ -275,4 +275,3 @@
   "isbn": "",
   "editorial": "",
   "anio": ""
-}
