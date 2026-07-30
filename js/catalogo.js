@@ -58,7 +58,7 @@ function mostrarLibros(lista) {
 
     lista.forEach(libro => {
 
-        let badge = "badge nuevo";
+        let estadoTexto = libro.estado;
 
         if (libro.estado === "Nuevo") {
     estadoTexto = "✨ Nuevo";
@@ -81,7 +81,7 @@ function mostrarLibros(lista) {
             <div class="card-body">
 
                 <span class="${badge}">
-                    ${libro.estado}
+                    ${estadoTexto}
                 </span>
 
                 <h3>${libro.titulo}</h3>
