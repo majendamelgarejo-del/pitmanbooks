@@ -143,6 +143,8 @@ p{
     position:sticky;
 
     top:0;
+    z-index:1000;
+background:#fff;
 
     background:rgba(255,255,255,.96);
 
@@ -178,7 +180,8 @@ p{
 
 .logo-img{
 
-    width:220px;
+    width:420px;
+    max-width:45vw;
     height:auto;
     display:block;
 }
@@ -247,7 +250,7 @@ nav a:hover{
     linear-gradient(rgba(20,20,20,.55),
     rgba(20,20,20,.55)
     ),
-#4E7A9B   
+#4E7A9B;   
 
     background-size:cover;
 
@@ -919,8 +922,6 @@ ACCIONES TARJETA
     text-align:center;
 }
 
-.whatsapp{
-    background
 
 .whatsapp:hover{
     background:#255538;
@@ -994,7 +995,7 @@ ACCIONES TARJETA
 }
 
 .whatsapp{
-    background:#2f6b45;
+    background:var(--azul);
 }
 
 .whatsapp:hover{
@@ -1006,6 +1007,6 @@ ESTADO: CASI NUEVO
 ==========================================*/
 
 .excelente{
-    background:#4b6b63;
+    background:var(--azul);
     color:#fff;
 }
