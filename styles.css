@@ -243,8 +243,9 @@ nav a:hover{
 
     background:
     linear-gradient(rgba(20,20,20,.55),
-    rgba(20,20,20,.55)),
-    url("../img/hero.jpg");
+    rgba(20,20,20,.55)
+    ),
+#6d8ca3;    
 
     background-size:cover;
 
