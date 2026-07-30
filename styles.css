@@ -1,0 +1,1008 @@
+/* ==========================================
+   PITMAN BOOKS
+   styles.css
+   Parte 1 - Base del proyecto
+========================================== */
+
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
+
+/* Variables */
+
+:root{
+
+    --vino:#7B1E3A;
+    --vino-hover:#5F152D;
+
+    --dorado:#B08D57;
+
+    --marfil:#FAF8F2;
+
+    --gris:#F2F2F2;
+
+    --texto:#333333;
+
+    --texto-claro:#666666;
+
+    --blanco:#FFFFFF;
+
+    --radio:16px;
+
+    --sombra:0 10px 30px rgba(0,0,0,.08);
+
+    --transicion:.30s ease;
+
+}
+
+/* Reset */
+
+*{
+
+    margin:0;
+
+    padding:0;
+
+    box-sizing:border-box;
+
+}
+
+html{
+
+    scroll-behavior:smooth;
+
+}
+
+body{
+
+    font-family:'Inter',sans-serif;
+
+    background:var(--marfil);
+
+    color:var(--texto);
+
+    line-height:1.7;
+
+}
+
+img{
+
+    display:block;
+
+    max-width:100%;
+
+}
+
+a{
+
+    text-decoration:none;
+
+    color:inherit;
+
+}
+
+ul{
+
+    list-style:none;
+
+}
+
+/* Contenedor */
+
+.container{
+
+    width:min(1200px,92%);
+
+    margin:auto;
+
+}
+
+/* Títulos */
+
+h1,h2,h3{
+
+    font-family:'Cormorant Garamond',serif;
+
+    color:var(--vino);
+
+}
+
+h1{
+
+    font-size:4rem;
+
+    line-height:1.1;
+
+}
+
+h2{
+
+    font-size:2.6rem;
+
+    margin-bottom:20px;
+
+}
+
+h3{
+
+    font-size:1.6rem;
+
+}
+
+p{
+
+    color:var(--texto-claro);
+
+}
+
+/* Header */
+
+.header{
+
+    position:sticky;
+
+    top:0;
+
+    background:rgba(255,255,255,.96);
+
+    backdrop-filter:blur(10px);
+
+    box-shadow:0 2px 10px rgba(0,0,0,.05);
+
+    z-index:999;
+
+}
+
+.nav{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:18px 0;
+
+}
+
+.logo{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:15px;
+
+}
+
+.logo-icon{
+
+    font-size:2rem;
+
+}
+
+.logo h2{
+
+    margin:0;
+
+    font-size:1.7rem;
+
+}
+
+.logo small{
+
+    display:block;
+
+    color:var(--texto-claro);
+
+    font-size:.80rem;
+
+}
+
+/* Menú */
+
+nav ul{
+
+    display:flex;
+
+    gap:35px;
+
+}
+
+nav a{
+
+    font-weight:500;
+
+    transition:var(--transicion);
+
+}
+
+nav a:hover{
+
+    color:var(--vino);
+
+}
+
+/* HERO */
+
+.hero{
+
+    min-height:80vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+
+    position:relative;
+
+    padding:60px 20px;
+
+    background:
+    linear-gradient(rgba(20,20,20,.55),
+    rgba(20,20,20,.55)),
+    url("../img/hero.jpg");
+
+    background-size:cover;
+
+    background-position:center;
+
+}
+
+.overlay{
+
+    position:absolute;
+
+    inset:0;
+
+}
+
+.hero-content{
+
+    position:relative;
+
+    z-index:2;
+
+    max-width:760px;
+
+}
+
+.tag{
+
+    display:inline-block;
+
+    background:rgba(255,255,255,.15);
+
+    color:white;
+
+    padding:8px 18px;
+
+    border-radius:50px;
+
+    margin-bottom:20px;
+
+    font-size:.9rem;
+
+}
+
+.hero h1{
+
+    color:white;
+
+    margin-bottom:25px;
+
+}
+
+.hero p{
+
+    color:white;
+
+    font-size:1.15rem;
+
+}
+
+/* Botones */
+
+.hero-buttons{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:20px;
+
+    margin-top:35px;
+
+    flex-wrap:wrap;
+
+}
+
+.btn{
+
+    background:var(--vino);
+
+    color:white;
+
+    padding:15px 35px;
+
+    border-radius:12px;
+
+    transition:var(--transicion);
+
+    font-weight:600;
+
+}
+
+.btn:hover{
+
+    background:var(--vino-hover);
+
+    transform:translateY(-3px);
+
+}
+
+.btn-outline{
+
+    border:2px solid white;
+
+    color:white;
+
+    padding:15px 35px;
+
+    border-radius:12px;
+
+    transition:var(--transicion);
+
+}
+
+.btn-outline:hover{
+
+    background:white;
+
+    color:var(--vino);
+
+}
+/* ==========================================
+   CATEGORÍAS
+========================================== */
+
+.categorias{
+
+    padding:90px 0;
+
+}
+
+.categorias h2{
+
+    text-align:center;
+
+    margin-bottom:50px;
+
+}
+
+.categorias-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+
+    gap:25px;
+
+}
+
+.categoria-card{
+
+    background:var(--blanco);
+
+    border-radius:var(--radio);
+
+    padding:35px 20px;
+
+    text-align:center;
+
+    cursor:pointer;
+
+    box-shadow:var(--sombra);
+
+    transition:var(--transicion);
+
+    font-size:2.2rem;
+
+}
+
+.categoria-card h3{
+
+    margin-top:20px;
+
+    font-size:1.4rem;
+
+}
+
+.categoria-card:hover{
+
+    transform:translateY(-8px);
+
+    border:2px solid var(--vino);
+
+}
+
+/* ==========================================
+   TÍTULOS DE SECCIÓN
+========================================== */
+
+.section-title{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin-bottom:40px;
+
+}
+
+.section-title a{
+
+    color:var(--vino);
+
+    font-weight:600;
+
+}
+
+.section-title a:hover{
+
+    text-decoration:underline;
+
+}
+
+/* ==========================================
+   LIBROS DESTACADOS
+========================================== */
+
+.cards{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+
+    gap:35px;
+
+    margin-bottom:90px;
+
+}
+
+/* ==========================================
+   TARJETAS
+========================================== */
+
+.card{
+
+    background:white;
+
+    border-radius:18px;
+
+    overflow:hidden;
+
+    box-shadow:var(--sombra);
+
+    transition:.35s;
+
+}
+
+.card:hover{
+
+    transform:translateY(-10px) scale(1.02);
+
+}
+
+.card img{
+
+    width:100%;
+
+    height:360px;
+
+    object-fit:cover;
+
+}
+
+.card-body{
+
+    padding:22px;
+
+}
+
+.card h3{
+
+    margin-bottom:10px;
+
+}
+
+.card p{
+
+    margin-bottom:8px;
+
+}
+
+.precio{
+
+    color:var(--vino);
+
+    font-size:1.5rem;
+
+    font-weight:bold;
+
+    margin:18px 0;
+
+}
+
+/* ==========================================
+   ETIQUETAS
+========================================== */
+
+.badge{
+
+    display:inline-block;
+
+    padding:7px 14px;
+
+    border-radius:50px;
+
+    font-size:.80rem;
+
+    font-weight:bold;
+
+    margin-bottom:15px;
+
+}
+
+.nuevo{
+
+    background:#7B1E3A;
+
+    color:white;
+
+}
+
+.segunda{
+
+    background:#ECECEC;
+
+    color:#444;
+
+}
+
+/* ==========================================
+   BOTÓN DE TARJETA
+========================================== */
+
+.card-btn{
+
+    display:inline-block;
+
+    margin-top:15px;
+
+    background:var(--vino);
+
+    color:white;
+
+    padding:12px 22px;
+
+    border-radius:10px;
+
+    transition:var(--transicion);
+
+}
+
+.card-btn:hover{
+
+    background:var(--vino-hover);
+
+}
+
+/* ==========================================
+   EFECTO NETFLIX
+========================================== */
+
+.card:hover img{
+
+    transform:scale(1.05);
+
+}
+
+.card img{
+
+    transition:.40s;
+
+}
+/* ==========================================
+   RECOMENDACIÓN DEL LIBRERO
+========================================== */
+
+.recomendacion{
+
+    background:linear-gradient(135deg,var(--vino),#5F152D);
+
+    color:white;
+
+    text-align:center;
+
+    padding:90px 20px;
+
+    margin:80px 0;
+
+}
+
+.recomendacion h2{
+
+    color:white;
+
+    margin:20px 0;
+
+    font-size:3rem;
+
+}
+
+.recomendacion p{
+
+    color:rgba(255,255,255,.90);
+
+    max-width:700px;
+
+    margin:0 auto 35px;
+
+    font-size:1.1rem;
+
+}
+
+.pill{
+
+    display:inline-block;
+
+    background:rgba(255,255,255,.15);
+
+    padding:10px 20px;
+
+    border-radius:50px;
+
+    font-size:.9rem;
+
+}
+
+/* ==========================================
+   VENTAJAS
+========================================== */
+
+.ventajas{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+
+    gap:35px;
+
+    padding:70px 0;
+
+}
+
+.ventajas article{
+
+    background:white;
+
+    padding:35px;
+
+    border-radius:18px;
+
+    text-align:center;
+
+    box-shadow:var(--sombra);
+
+    transition:var(--transicion);
+
+}
+
+.ventajas article:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.icono{
+
+    font-size:3rem;
+
+    margin-bottom:20px;
+
+}
+
+/* ==========================================
+   FOOTER
+========================================== */
+
+footer{
+
+    background:#222;
+
+    color:#ddd;
+
+    margin-top:80px;
+
+}
+
+.footer-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+
+    gap:40px;
+
+    padding:60px 0;
+
+}
+
+footer h2,
+footer h3{
+
+    color:white;
+
+    margin-bottom:15px;
+
+}
+
+footer p{
+
+    color:#cfcfcf;
+
+}
+
+.copyright{
+
+    text-align:center;
+
+    border-top:1px solid rgba(255,255,255,.1);
+
+    padding:20px;
+
+    font-size:.9rem;
+
+}
+
+/* ==========================================
+   ANIMACIONES
+========================================== */
+
+@keyframes aparecer{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(25px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}
+
+.hero-content{
+
+    animation:aparecer .8s ease;
+
+}
+
+/* ==========================================
+   RESPONSIVE
+========================================== */
+
+@media(max-width:900px){
+
+.nav{
+
+    flex-direction:column;
+
+    gap:20px;
+
+}
+
+nav ul{
+
+    gap:18px;
+
+    flex-wrap:wrap;
+
+    justify-content:center;
+
+}
+
+.hero h1{
+
+    font-size:3rem;
+
+}
+
+.section-title{
+
+    flex-direction:column;
+
+    gap:15px;
+
+}
+
+}
+
+@media(max-width:600px){
+
+.hero{
+
+    min-height:70vh;
+
+}
+
+.hero h1{
+
+    font-size:2.3rem;
+
+}
+
+.hero p{
+
+    font-size:1rem;
+
+}
+
+.hero-buttons{
+
+    flex-direction:column;
+
+}
+
+.btn,
+.btn-outline{
+
+    width:100%;
+
+    text-align:center;
+
+}
+
+.logo{
+
+    flex-direction:column;
+
+}
+
+.cards{
+
+    grid-template-columns:1fr;
+
+}
+
+.categorias-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+.footer-grid{
+
+    text-align:center;
+
+}
+
+}
+/*==========================================
+ACCIONES TARJETA
+==========================================*/
+
+.acciones{
+    display:flex;
+    gap:10px;
+    margin-top:18px;
+}
+
+.acciones .card-btn{
+    flex:1;
+    text-align:center;
+}
+
+.whatsapp{
+    background:#2f6b45;
+}
+
+.whatsapp:hover{
+    background:#255538;
+}
+.excelente{
+    background:#4b6b63;
+    color:#fff;
+}
+
+/*==========================================
+BUSCADOR
+==========================================*/
+
+.buscador{
+    margin:40px 0;
+}
+
+.buscador input{
+    width:100%;
+    padding:18px;
+    border:none;
+    border-radius:14px;
+    box-shadow:0 4px 12px rgba(0,0,0,.10);
+    font-size:1rem;
+    outline:none;
+}
+
+/*==========================================
+FILTROS
+==========================================*/
+
+.filtros{
+    display:flex;
+    flex-wrap:wrap;
+    gap:12px;
+    margin-bottom:35px;
+}
+
+.filtros button{
+    background:#fff;
+    border:none;
+    padding:12px 20px;
+    border-radius:40px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.filtros button:hover{
+    background:#7B1E3A;
+    color:#fff;
+}
+
+.filtros .activo{
+    background:#7B1E3A;
+    color:#fff;
+}
+
+/*==========================================
+ACCIONES TARJETA
+==========================================*/
+
+.acciones{
+    display:flex;
+    gap:10px;
+    margin-top:18px;
+}
+
+.acciones .card-btn{
+    flex:1;
+    text-align:center;
+}
+
+.whatsapp{
+    background:#2f6b45;
+}
+
+.whatsapp:hover{
+    background:#255538;
+}
+
+/*==========================================
+ESTADO: CASI NUEVO
+==========================================*/
+
+.excelente{
+    background:#4b6b63;
+    color:#fff;
+}
