@@ -11,9 +11,11 @@
 
 :root{
 
-    --vino:#7B1E3A;
-    --vino-hover:#5F152D;
-
+    --vino:#6F2942;
+--vino-hover:#562035;
+--azul:#4E7A9B;
+--azul-hover:#3D647F;
+--azul-claro:#EAF2F8;
     --dorado:#B08D57;
 
     --marfil:#FAF8F2;
@@ -28,7 +30,7 @@
 
     --radio:16px;
 
-    --sombra:0 10px 30px rgba(0,0,0,.08);
+    --sombra:0 12px 30px rgba(62,108,143,.12);
 
     --transicion:.30s ease;
 
@@ -102,7 +104,7 @@ h1,h2,h3{
 
     font-family:'Cormorant Garamond',serif;
 
-    color:var(--vino);
+    color:var(--azul);
 
 }
 
@@ -245,7 +247,7 @@ nav a:hover{
     linear-gradient(rgba(20,20,20,.55),
     rgba(20,20,20,.55)
     ),
-#6d8ca3;    
+#4E7A9B   
 
     background-size:cover;
 
@@ -361,7 +363,7 @@ nav a:hover{
 
 .btn-outline:hover{
 
-    background:white;
+    background:#FFFEFC;
 
     color:var(--vino);
 
@@ -725,7 +727,7 @@ nav a:hover{
 
 footer{
 
-    background:#222;
+    background:#2E4E66;
 
     color:#ddd;
 
@@ -918,15 +920,14 @@ ACCIONES TARJETA
 }
 
 .whatsapp{
-    background:#2f6b45;
-}
+    background
 
 .whatsapp:hover{
     background:#255538;
 }
 .excelente{
-    background:#4b6b63;
-    color:#fff;
+   background:#5F8099;
+    color:white;
 }
 
 /*==========================================
