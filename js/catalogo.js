@@ -60,17 +60,13 @@ function mostrarLibros(lista) {
 
         let badge = "badge nuevo";
 
-        if (libro.estado.toLowerCase().includes("segunda")) {
-
-            badge = "badge segunda";
-
-        }
-
-        if (libro.estado.toLowerCase().includes("casi")) {
-
-            badge = "badge excelente";
-
-        }
+        if (libro.estado === "Nuevo") {
+    estadoTexto = "✨ Nuevo";
+} else if (libro.estado === "Casi nuevo") {
+    estadoTexto = "❤️ Selección cuidada";
+} else if (libro.estado === "De segunda") {
+    estadoTexto = "📖 Buen estado";
+}
 
         const whatsapp = `https://wa.me/51920600303?text=${encodeURIComponent(
             `Hola, vi el libro "${libro.titulo}" en Pitman Books. ¿Podrías confirmar si aún está disponible? Gracias.`
