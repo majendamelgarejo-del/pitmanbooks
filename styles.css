@@ -181,7 +181,7 @@ background:#fff;
 .logo-img{
 
     width:420px;
-    max-width:45vw;
+    max-width:100%;
     height:auto;
     display:block;
 }
@@ -630,7 +630,10 @@ nav a:hover{
 
 .recomendacion{
 
-    background:linear-gradient(135deg,var(--vino),#5F152D);
+    background:
+linear-gradient(rgba(30,55,80,.35),
+rgba(30,55,80,.35)),
+#AFC8DA;
 
     color:white;
 
