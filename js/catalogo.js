@@ -59,6 +59,13 @@ function mostrarLibros(lista) {
     lista.forEach(libro => {
 
         let estadoTexto = libro.estado;
+        let badge = "badge nuevo";
+
+if (libro.estado === "Casi nuevo") {
+    badge = "badge excelente";
+} else if (libro.estado === "De segunda") {
+    badge = "badge segunda";
+}
 
         if (libro.estado === "Nuevo") {
     estadoTexto = "✨ Nuevo";
