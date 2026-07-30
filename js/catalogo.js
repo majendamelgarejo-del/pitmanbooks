@@ -25,7 +25,7 @@ async function cargarLibros() {
 
     try {
 
-        const respuesta = await fetch("data/libros.json");
+        const respuesta = await fetch("libros.json");
 
         libros = await respuesta.json();
 
