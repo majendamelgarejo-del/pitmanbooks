@@ -174,10 +174,11 @@ p{
 
 }
 
-.logo-icon{
+.logo-img{
 
-    font-size:2rem;
-
+    width:55px;
+    height:auto;
+    display:block;
 }
 
 .logo h2{
