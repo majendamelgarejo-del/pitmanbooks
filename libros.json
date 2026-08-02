@@ -1,262 +1,182 @@
 [
   {
-    "id": 1,
     "titulo": "Historia de la revolución rusa",
     "autor": "Leon Trotsky",
     "categoria": "Ensayo",
     "precio": 69,
     "stock": 1,
     "estado": "Nuevo",
-    "descripcion": "",
-    "imagen": "img/libros/001.jpg",
-    "destacado": false,
-    "agotado": false
+    "imagen": "img/libros/001.jpg"
   },
   {
-    "id": 2,
     "titulo": "Fiesta",
     "autor": "Ernest Heminguay",
-    "categoria": "Novela",
+    "categoria": "Literatura",
     "precio": 11,
     "stock": 1,
-    "estado": "De segunda",
-    "descripcion": "",
-    "imagen": "img/libros/002.jpg",
-    "destacado": false,
-    "agotado": false
+    "estado": "Buen estado",
+    "imagen": "img/libros/002.jpg"
   },
   {
-    "id": 3,
     "titulo": "Los ríos profundos",
     "autor": "José María Arguedas",
-    "categoria": "Novela",
+    "categoria": "Literatura",
     "precio": 44,
     "stock": 1,
     "estado": "Nuevo",
-    "descripcion": "",
-    "imagen": "img/libros/003.jpg",
-    "destacado": false,
-    "agotado": false
+    "imagen": "img/libros/003.jpg"
   },
   {
-    "id": 4,
     "titulo": "La palabra del mudo. Antología",
     "autor": "Julio Ramón Ribeyro",
-    "categoria": "Cuentos",
+    "categoria": "Literatura",
     "precio": 19,
     "stock": 1,
-    "estado": "De segunda",
-    "descripcion": "",
-    "imagen": "img/libros/004.jpg",
-    "destacado": false,
-    "agotado": false
+    "estado": "Buen estado",
+    "imagen": "img/libros/004.jpg"
   },
   {
-    "id": 5,
     "titulo": "La república agrietada",
     "autor": "Carmen McEvoy",
     "categoria": "Ensayo",
     "precio": 39,
     "stock": 1,
     "estado": "Nuevo",
-    "descripcion": "",
-    "imagen": "img/libros/005.jpg",
-    "destacado": false,
-    "agotado": false
+    "imagen": "img/libros/005.jpg"
   },
   {
-    "id": 6,
     "titulo": "Viaje al manicomio",
     "autor": "Kate Millett",
     "categoria": "Ensayo",
     "precio": 39,
     "stock": 1,
-    "estado": "De segunda",
-    "descripcion": "",
-    "imagen": "img/libros/006.jpg",
-    "destacado": false,
-    "agotado": false
+    "estado": "Buen estado",
+    "imagen": "img/libros/006.jpg"
   },
   {
-    "id": 7,
     "titulo": "El peligro de estar cuerda",
     "autor": "Rosa Montero",
-    "categoria": "Novela",
+    "categoria": "Literatura",
     "precio": 35,
     "stock": 1,
     "estado": "Nuevo",
-    "descripcion": "",
-    "imagen": "img/libros/007.jpg",
-    "destacado": false,
-    "agotado": false
+    "imagen": "img/libros/007.jpg"
   },
   {
-    "id": 8,
     "titulo": "Sobre héroes y tumbas",
     "autor": "Ernesto Sábato",
-    "categoria": "Novela",
+    "categoria": "Literatura",
     "precio": 39,
     "stock": 1,
     "estado": "Nuevo",
-    "descripcion": "",
-    "imagen": "img/libros/008.jpg",
-    "destacado": false,
-    "agotado": false
+    "imagen": "img/libros/008.jpg"
   },
   {
-    "id": 9,
-    "titulo": 1984,
+    "titulo": "1984",
     "autor": "George Orwell",
-    "categoria": "Novela",
+    "categoria": "Literatura",
     "precio": 35,
     "stock": 1,
     "estado": "Nuevo",
-    "descripcion": "",
-    "imagen": "img/libros/009.jpg",
-    "destacado": false,
-    "agotado": false
+    "imagen": "img/libros/009.jpg"
   },
   {
-    "id": 10,
     "titulo": "Almendra",
     "autor": "Won- pyung ",
-    "categoria": "Novela",
+    "categoria": "Literatura",
     "precio": 39,
     "stock": 1,
     "estado": "Nuevo",
-    "descripcion": "",
-    "imagen": "img/libros/010.jpg",
-    "destacado": false,
-    "agotado": false
+    "imagen": "img/libros/010.jpg"
   },
   {
-    "id": 11,
     "titulo": "Africanus",
     "autor": "Santiago Posteguillo",
-    "categoria": "Novela",
+    "categoria": "Literatura",
     "precio": 25,
     "stock": 1,
     "estado": "Nuevo",
-    "descripcion": "",
-    "imagen": "img/libros/011.jpg",
-    "destacado": false,
-    "agotado": false
+    "imagen": "img/libros/011.jpg"
   },
   {
-    "id": 12,
     "titulo": "El zorro de arriba y el zorro de abajo",
     "autor": "José María Arguedas",
-    "categoria": "Novela",
+    "categoria": "Literatura",
     "precio": 42,
     "stock": 1,
     "estado": "Nuevo",
-    "descripcion": "",
-    "imagen": "img/libros/012.jpg",
-    "destacado": false,
-    "agotado": false
+    "imagen": "img/libros/012.jpg"
   },
   {
-    "id": 13,
     "titulo": "El barón rampante",
     "autor": "Italo Calvino",
-    "categoria": "Novela",
+    "categoria": "Literatura",
     "precio": 20,
     "stock": 1,
-    "estado": "De segunda",
-    "descripcion": "",
-    "imagen": "img/libros/013.jpg",
-    "destacado": false,
-    "agotado": false
+    "estado": "Buen estado",
+    "imagen": "img/libros/013.jpg"
   },
   {
-    "id": 14,
     "titulo": "Cumbres borrascosas",
     "autor": "Emily Bronte",
-    "categoria": "Novela",
+    "categoria": "Literatura",
     "precio": 42,
     "stock": 1,
     "estado": "Nuevo",
-    "descripcion": "",
-    "imagen": "img/libros/014.jpg",
-    "destacado": false,
-    "agotado": false
+    "imagen": "img/libros/014.jpg"
   },
   {
-    "id": 15,
     "titulo": "Una habitación propia. Ilustrada",
     "autor": "Virginia Woolf",
-    "categoria": "Novela",
+    "categoria": "Literatura",
     "precio": 59,
     "stock": 1,
     "estado": "Nuevo",
-    "descripcion": "",
-    "imagen": "img/libros/015.jpg",
-    "destacado": false,
-    "agotado": false
+    "imagen": "img/libros/015.jpg"
   },
   {
-    "id": 16,
     "titulo": "Mujeres y poder",
     "autor": "Mary Beard",
     "categoria": "Ensayo",
     "precio": 19,
     "stock": 1,
     "estado": "Nuevo",
-    "descripcion": "",
-    "imagen": "img/libros/016.jpg",
-    "destacado": false,
-    "agotado": false
+    "imagen": "img/libros/016.jpg"
   },
   {
-    "id": 17,
     "titulo": "La tentación del fracaso",
     "autor": "Julio Ramón Ribeyro",
     "categoria": "Ensayo",
     "precio": 72,
     "stock": 1,
     "estado": "Nuevo",
-    "descripcion": "",
-    "imagen": "img/libros/017.jpg",
-    "destacado": false,
-    "agotado": false
+    "imagen": "img/libros/017.jpg"
   },
   {
-    "id": 18,
     "titulo": "La invención de Morel",
     "autor": "Adolfo Bioy Casares",
-    "categoria": "Novela",
+    "categoria": "Literatura",
     "precio": 25,
     "stock": 1,
-    "estado": "Casi nuevo",
-    "descripcion": "",
-    "imagen": "img/libros/018.jpg",
-    "destacado": false,
-    "agotado": false
+    "estado": "Selección cuidada",
+    "imagen": "img/libros/018.jpg"
   },
   {
-    "id": 19,
     "titulo": "La palabra del mudo",
     "autor": "Julio Ramón Ribeyro",
-    "categoria": "Cuentos",
+    "categoria": "Literatura",
     "precio": 159,
     "stock": 1,
     "estado": "Nuevo",
-    "descripcion": "",
-    "imagen": "img/libros/019.jpg",
-    "destacado": false,
-    "agotado": false
+    "imagen": "img/libros/019.jpg"
   },
   {
-    "id": 20,
     "titulo": "Monster",
     "autor": "AA. VV.",
     "categoria": "Manga",
     "precio": 53,
     "stock": 1,
-    "estado": "Casi nuevo",
-    "descripcion": "",
-    "imagen": "img/libros/020.jpg",
-    "destacado": false,
-    "agotado": false
+    "estado": "Selección cuidada",
+    "imagen": "img/libros/020.jpg"
   }
 ]
