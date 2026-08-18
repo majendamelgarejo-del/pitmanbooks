@@ -6,16 +6,16 @@
     "precio": 69,
     "stock": 1,
     "estado": "Nuevo",
-    "imagen": "img/libros/001.jpg"
+    "imagen": "001.jpg"
   },
   {
-    "titulo": "Fiesta",
+    "titulo": " Fiesta",
     "autor": "Ernest Heminguay",
     "categoria": "Literatura",
-    "precio": 11,
+    "precio": 14,
     "stock": 1,
     "estado": "Buen estado",
-    "imagen": "img/libros/002.jpg"
+    "imagen": "002.jpg"
   },
   {
     "titulo": "Los ríos profundos",
@@ -24,7 +24,7 @@
     "precio": 44,
     "stock": 1,
     "estado": "Nuevo",
-    "imagen": "img/libros/003.jpg"
+    "imagen": "003.jpg"
   },
   {
     "titulo": "La palabra del mudo. Antología",
@@ -33,16 +33,16 @@
     "precio": 19,
     "stock": 1,
     "estado": "Buen estado",
-    "imagen": "img/libros/004.jpg"
+    "imagen": "004.jpg"
   },
   {
     "titulo": "La república agrietada",
     "autor": "Carmen McEvoy",
     "categoria": "Ensayo",
-    "precio": 39,
+    "precio": 42,
     "stock": 1,
     "estado": "Nuevo",
-    "imagen": "img/libros/005.jpg"
+    "imagen": "005.jpg"
   },
   {
     "titulo": "Viaje al manicomio",
@@ -51,7 +51,7 @@
     "precio": 39,
     "stock": 1,
     "estado": "Buen estado",
-    "imagen": "img/libros/006.jpg"
+    "imagen": "006.jpg"
   },
   {
     "titulo": "El peligro de estar cuerda",
@@ -60,7 +60,7 @@
     "precio": 35,
     "stock": 1,
     "estado": "Nuevo",
-    "imagen": "img/libros/007.jpg"
+    "imagen": "007.jpg"
   },
   {
     "titulo": "Sobre héroes y tumbas",
@@ -69,16 +69,16 @@
     "precio": 39,
     "stock": 1,
     "estado": "Nuevo",
-    "imagen": "img/libros/008.jpg"
+    "imagen": "008.jpg"
   },
   {
-    "titulo": "1984",
+    "titulo": 1984,
     "autor": "George Orwell",
     "categoria": "Literatura",
     "precio": 35,
     "stock": 1,
     "estado": "Nuevo",
-    "imagen": "img/libros/009.jpg"
+    "imagen": "009.jpg"
   },
   {
     "titulo": "Almendra",
@@ -87,7 +87,7 @@
     "precio": 39,
     "stock": 1,
     "estado": "Nuevo",
-    "imagen": "img/libros/010.jpg"
+    "imagen": "010.jpg"
   },
   {
     "titulo": "Africanus",
@@ -96,7 +96,7 @@
     "precio": 25,
     "stock": 1,
     "estado": "Nuevo",
-    "imagen": "img/libros/011.jpg"
+    "imagen": "011.jpg"
   },
   {
     "titulo": "El zorro de arriba y el zorro de abajo",
@@ -105,7 +105,7 @@
     "precio": 42,
     "stock": 1,
     "estado": "Nuevo",
-    "imagen": "img/libros/012.jpg"
+    "imagen": "012.jpg"
   },
   {
     "titulo": "El barón rampante",
@@ -114,7 +114,7 @@
     "precio": 20,
     "stock": 1,
     "estado": "Buen estado",
-    "imagen": "img/libros/013.jpg"
+    "imagen": "013.jpg"
   },
   {
     "titulo": "Cumbres borrascosas",
@@ -123,25 +123,25 @@
     "precio": 42,
     "stock": 1,
     "estado": "Nuevo",
-    "imagen": "img/libros/014.jpg"
+    "imagen": "014.jpg"
   },
   {
     "titulo": "Una habitación propia. Ilustrada",
     "autor": "Virginia Woolf",
     "categoria": "Literatura",
-    "precio": 59,
+    "precio": 64,
     "stock": 1,
     "estado": "Nuevo",
-    "imagen": "img/libros/015.jpg"
+    "imagen": "015.jpg"
   },
   {
     "titulo": "Mujeres y poder",
     "autor": "Mary Beard",
     "categoria": "Ensayo",
-    "precio": 19,
+    "precio": 20,
     "stock": 1,
     "estado": "Nuevo",
-    "imagen": "img/libros/016.jpg"
+    "imagen": "016.jpg"
   },
   {
     "titulo": "La tentación del fracaso",
@@ -150,7 +150,7 @@
     "precio": 72,
     "stock": 1,
     "estado": "Nuevo",
-    "imagen": "img/libros/017.jpg"
+    "imagen": "017.jpg"
   },
   {
     "titulo": "La invención de Morel",
@@ -159,16 +159,16 @@
     "precio": 25,
     "stock": 1,
     "estado": "Selección cuidada",
-    "imagen": "img/libros/018.jpg"
+    "imagen": "018.jpg"
   },
   {
     "titulo": "La palabra del mudo",
     "autor": "Julio Ramón Ribeyro",
     "categoria": "Literatura",
-    "precio": 159,
+    "precio": 149,
     "stock": 1,
     "estado": "Nuevo",
-    "imagen": "img/libros/019.jpg"
+    "imagen": "019.jpg"
   },
   {
     "titulo": "Monster",
@@ -177,6 +177,51 @@
     "precio": 53,
     "stock": 1,
     "estado": "Selección cuidada",
-    "imagen": "img/libros/020.jpg"
+    "imagen": "020.jpg"
+  },
+  {
+    "titulo": "Cartas a un buscador de sí mismo",
+    "autor": "Henry David Thoreau",
+    "categoria": "Literatura",
+    "precio": 22,
+    "stock": 1,
+    "estado": "Buen estado",
+    "imagen": "021.jpg"
+  },
+  {
+    "titulo": "Oliver Twist",
+    "autor": "Charles Dickens",
+    "categoria": "Literatura",
+    "precio": 39,
+    "stock": 1,
+    "estado": "Nuevo",
+    "imagen": "022.jpg"
+  },
+  {
+    "titulo": "Prosas apátridas",
+    "autor": "Julio Ramón Ribeyro",
+    "categoria": "Literatura",
+    "precio": 39,
+    "stock": 1,
+    "estado": "Nuevo",
+    "imagen": "023.jpg"
+  },
+  {
+    "titulo": "Cometierra",
+    "autor": "Dolores Reyes",
+    "categoria": "Literatura",
+    "precio": 45,
+    "stock": 1,
+    "estado": "Selección cuidada",
+    "imagen": "024.jpg"
+  },
+  {
+    "titulo": "El jugador",
+    "autor": "Fedor Dostoievski",
+    "categoria": "Literatura",
+    "precio": 12,
+    "stock": 1,
+    "estado": "Buen estado",
+    "imagen": "025.jpg"
   }
 ]
